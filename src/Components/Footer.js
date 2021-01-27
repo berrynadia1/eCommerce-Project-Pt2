@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import iconFinder from '/Users/nadiaberry/Documents/new-ecommerce-project/assets/images/iconFinder.png';
+import iconFinder from '/Users/nadiaberry/Documents/new-ecommerce-project/assets/iconFinder.png';
 import { Twitter } from 'react-feather'
 import { Facebook } from 'react-feather'
 import { Instagram } from 'react-feather'
