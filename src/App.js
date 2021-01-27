@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react'
+import  './App.css';
+import NavBar from './Components/NavBar';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Products from './Components/Product/Products';
+import Homepage from './Components/Home/Homepage';
+import Contacts from './Components/Contact/Contacts';
+import Footer from './Components/Footer'
+// import ImageSlider from './ImageSlider';
+// import SliderInfo from './SliderInfo';
 
-function App() {
+class App extends Component  {
+    render(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+     <NavBar />
+     <Switch>
+     {/* <ImageSlider slides={SliderInfo} /> */}
+     <Route path="/homepage"  exact component={Homepage} />
+     <Route path="/products" component={Products} />
+     <Route path="/contacts" component={Contacts} />
+     </Switch>
+     <Footer />
+</Router>
   );
 }
+
+}
+
+
+
 
 export default App;

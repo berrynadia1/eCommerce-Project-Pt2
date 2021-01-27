@@ -1,0 +1,88 @@
+{
+    "products":[
+        {
+            "name":"Suede Nike Airmax",
+            "photos": "assets/images/lefteris-kallergis-j1GiPlvSGWI-unsplash.jpg",
+            "price":"$100",
+            "description":"Orange suede and yellow tennis shoes",
+            "id": 1
+        },
+        {
+            "name":"Black and White Wedgies",
+            "price":"$80",
+            "photos":"assets/images/allyson-johnson-lY3d_sIzBXg-unsplash.jpg",
+            "description":"Black and white strappy wedgies",
+            "id": 2
+        },
+        {
+            "name":"Neon Adidas Flex",
+            "photos":"assets/images/chuttersnap-4JHMt29fvj8-unsplash.jpg",
+            "price":"$150",
+            "description":"Neon pink and blue sneakers",
+            "id": 3
+        },
+        {
+            "name":"Yellow High Top Converse",
+            "photos":"assets/images/danny-g-htYDlrrKfuM-unsplash.jpg",
+            "price":"$70",
+            "description":"Yellow high top tennis shoes",
+            "id": 4
+        },
+        {
+            "name":"Floral Pump Heels",
+            "photos":"assets/images/mohammad-metri-E-0ON3VGrBc-unsplash.jpg",
+            "price":"$120",
+            "description":"Blue heels with floral print",
+            "id": 5
+        },
+        {
+            "name":"Jordan 1 Mid",
+            "photos":"assets/images/pat-kwon-EJTjetc8tPs-unsplash.jpg",
+            "price":"$160",
+            "description":"Red and black high top sneakers",
+            "id": 6
+        },
+        {
+            "name":"Nike Carhartt Air Force",
+            "photos":"assets/images/maksim-larin-NOpsC3nWTzY-unsplash.jpg",
+            "price":"$165",
+            "description":"Tan, brown and white low-top sneakers",
+            "id": 7
+        },
+        {
+            "name":"Nike SF Air Force 1 High Tops",
+            "photos":"assets/images/whereslugo-ad047kyPBh8-unsplash.jpg",
+            "price":"$200",
+            "description":"Grey and tan high-top with braided clasp around the top",
+            "id": 8
+        },
+        {
+            "name":"Nike Air Huaraches Run Ultra",
+            "photos":"assets/images/jakob-owens-JzJSybPFb3s-unsplash.jpg",
+            "price":"$70",
+            "description":"Neon orange and black sneakers",
+            "id": 9
+        },
+        {
+            "name":"Anniversary Timberlands",
+            "photos":"assets/images/nathan-dumlao-Kuh5sIvT3as-unsplash.jpg",
+            "price":"$140",
+            "description":"Wheat colored boots",
+            "id": 10
+        },
+        {
+            "name":"Rupert Sanderson Heel",
+            "photos":"assets/images/tyron-harkiss-foster-BIkif7IMZSQ-unsplash.jpg",
+            "price":"$120",
+            "description":"Gold colored heel",
+            "id": 11
+        },
+        {
+            "name":"Multi-Colored Running Sneakers",
+            "photos":"assets/images/irene-kredenets-dwKiHoqqxk8-unsplash.jpg",
+            "price":"$100",
+            "description":"Teal, orange, red, and white sneakers",
+            "id": 12
+        }
+    ]
+}
