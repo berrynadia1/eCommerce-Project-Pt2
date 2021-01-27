@@ -1,6 +1,6 @@
 // import { render } from '@testing-library/react';
 import React from 'react';
-import products from '/Users/nadiaberry/Documents/new-ecommerce-project/src/product/products.json'
+import products from './products.json';
 
 
 
