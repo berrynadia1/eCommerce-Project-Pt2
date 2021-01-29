@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ShoeWorld from '../assets/ShoeWorld.png';
+import ShoeWorld from '../../public/assetsShoeWorld.png';
 
 function NavBar(){
         return (
