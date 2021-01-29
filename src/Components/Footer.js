@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import iconFinder from './asset/iconFinder.png';
+import iconFinder from 'src/asset/iconFinder.png';
 import { Twitter } from 'react-feather'
 import { Facebook } from 'react-feather'
 import { Instagram } from 'react-feather'
