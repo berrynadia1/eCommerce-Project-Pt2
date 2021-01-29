@@ -265,7 +265,8 @@ font-size: 2rem;
 
 /* Info */
 .contact-container{
- padding: 0px 0px 0px 0;;
+ padding: 0px 10px 20px 10px;
+ 
   
 }
 .info{
@@ -276,6 +277,9 @@ font-size: 2rem;
   border-radius: 5px;
   display:block;
   margin-left: 10px;  
+}
+.info-container{
+  margin-left:22%;
 }
 
 
@@ -309,7 +313,4 @@ font-size: 2rem;
 
   
 }
-/* .socials{
-  width:10%;
   
-} */

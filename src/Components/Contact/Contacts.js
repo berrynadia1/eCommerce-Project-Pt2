@@ -66,7 +66,7 @@ class Contacts extends Component{
         <div className="contact-container">
         <form onSubmit={this.handleSubmit}>
         <ContactSlider slides={ContactSliderInfo} />
-        <div>
+        <div className="info-container">
         <input className="info"
         name="name"
         placeholder="Name"
@@ -75,7 +75,7 @@ class Contacts extends Component{
         />
         </div>
         <div>{this.state.nameError}</div>
-        <div>
+        <div className="info-container">
         <input className="info"
         name="email"
         placeholder="email@google.com"
@@ -84,7 +84,7 @@ class Contacts extends Component{
         />
         </div>
         <div>{this.state.emailError}</div>
-        <div>
+        <div className="info-container">
         <input className="info"
         name="phone"
         placeholder="***-***-****"
@@ -93,7 +93,7 @@ class Contacts extends Component{
         />
         </div>
         <div>{this.state.phoneError}</div>
-        <div>
+        <div className="info-container">
         <input className="info"
         name="comment"
         placeholder="Leave us a comment!"
